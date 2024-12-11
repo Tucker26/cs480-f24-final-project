@@ -1,4 +1,5 @@
 from flask import Flask
+from minio import Minio
 
 # This defines the main Flask object.
 app = Flask(__name__)
