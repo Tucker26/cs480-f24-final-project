@@ -11,6 +11,9 @@ This project is a file storage system that implements file upload, file download
    * Download file from cloud storage given file path
 ### Technical Architecture
 #### Microservices
-1. POST API Upload
-2. GET API List
-3. GET API Download
+1. Upload API
+   * POST request
+2. List API
+   * GET request
+3. Download API
+   * GET request
