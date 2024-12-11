@@ -1,4 +1,5 @@
 # This Compose file builds two services - "login" and "user" - and exposes each independently.
+version: "3.8"
 
 services:
   download:
@@ -6,6 +7,8 @@ services:
       context: .
       dockerfile: Dockerfile
       target: download
+    volumes:
+    - ./api:/cs480-f24-final-project/api
     ports:
       - "5000:5000"
   list:
@@ -13,6 +16,8 @@ services:
       context: .
       dockerfile: Dockerfile
       target: list
+    volumes:
+    - ./api:/cs480-f24-final-project/api
     ports:
       - "5001:5000"
   upload:
@@ -20,5 +25,7 @@ services:
       context: .
       dockerfile: Dockerfile
       target: upload
+    volumes:
+    - ./api:/cs480-f24-final-project/api
     ports:
       - "5002:5000"
