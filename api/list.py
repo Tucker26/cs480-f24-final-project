@@ -1,22 +1,21 @@
-from flask import Flask
-from minio import Minio
+from flask import jsonify
+from minio import S3Error
 
-# This defines the main Flask object.
-app = Flask(__name__)
+from main import app, minio_client, BUCKET_NAME
 
 
 @app.route('/list', methods=['GET'])
-def list_files(client, bucket):
+def list_file():
     try:
-        filelist = client.list_objects(bucket)
-        for file in filelist:
-            print(file.object_name)
-    except:
-        print("----ERROR: File list failed----")
-        return "Error List Failed", 500
+        objects = minio_client.list_objects(
+            bucket_name=BUCKET_NAME
+        )
 
-    return "Files listed", 200
+        return jsonify({"message": "Files listed successfully", "files": objects}), 200
+
+    except S3Error as e:
+        return jsonify({"error": str(e)}), 500
 
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+# if __name__ == '__main__':
+#     app.run(host='0.0.0.0', port=5000)
