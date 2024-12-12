@@ -1,0 +1,30 @@
+environ({'PATH': '/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'HOSTNAME': '046d8b379b17', 'S3_ENDPOINT': 'minio:9000', 'ACCESS_KEY': 'minioadmin', 'SECRET_KEY': 'minioadmin', 'LANG': 'C.UTF-8', 'GPG_KEY': '7169605F62C751356D054A26A821E680E5FA6305', 'PYTHON_VERSION': '3.12.8', 'PYTHON_SHA256': 'c909157bb25ec114e5869124cc2a9c4a4d4c1e957ca4ff553f1edc692101154e', 'HOME': '/root'})
+environ({'PATH': '/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'HOSTNAME': '046d8b379b17', 'S3_ENDPOINT': 'minio:9000', 'ACCESS_KEY': 'minioadmin', 'SECRET_KEY': 'minioadmin', 'LANG': 'C.UTF-8', 'GPG_KEY': '7169605F62C751356D054A26A821E680E5FA6305', 'PYTHON_VERSION': '3.12.8', 'PYTHON_SHA256': 'c909157bb25ec114e5869124cc2a9c4a4d4c1e957ca4ff553f1edc692101154e', 'HOME': '/root'})
+environ({'PATH': '/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'HOSTNAME': '046d8b379b17', 'S3_ENDPOINT': 'minio:9000', 'ACCESS_KEY': 'minioadmin', 'SECRET_KEY': 'minioadmin', 'LANG': 'C.UTF-8', 'GPG_KEY': '7169605F62C751356D054A26A821E680E5FA6305', 'PYTHON_VERSION': '3.12.8', 'PYTHON_SHA256': 'c909157bb25ec114e5869124cc2a9c4a4d4c1e957ca4ff553f1edc692101154e', 'HOME': '/root'})
+environ({'PATH': '/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'HOSTNAME': '046d8b379b17', 'S3_ENDPOINT': 'minio:9000', 'ACCESS_KEY': 'minioadmin', 'SECRET_KEY': 'minioadmin', 'LANG': 'C.UTF-8', 'GPG_KEY': '7169605F62C751356D054A26A821E680E5FA6305', 'PYTHON_VERSION': '3.12.8', 'PYTHON_SHA256': 'c909157bb25ec114e5869124cc2a9c4a4d4c1e957ca4ff553f1edc692101154e', 'HOME': '/root'})
+environ({'PATH': '/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'HOSTNAME': '046d8b379b17', 'S3_ENDPOINT': 'minio:9000', 'ACCESS_KEY': 'minioadmin', 'SECRET_KEY': 'minioadmin', 'LANG': 'C.UTF-8', 'GPG_KEY': '7169605F62C751356D054A26A821E680E5FA6305', 'PYTHON_VERSION': '3.12.8', 'PYTHON_SHA256': 'c909157bb25ec114e5869124cc2a9c4a4d4c1e957ca4ff553f1edc692101154e', 'HOME': '/root'})
+environ({'PATH': '/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'HOSTNAME': '046d8b379b17', 'S3_ENDPOINT': 'minio:9000', 'ACCESS_KEY': 'minioadmin', 'SECRET_KEY': 'minioadmin', 'LANG': 'C.UTF-8', 'GPG_KEY': '7169605F62C751356D054A26A821E680E5FA6305', 'PYTHON_VERSION': '3.12.8', 'PYTHON_SHA256': 'c909157bb25ec114e5869124cc2a9c4a4d4c1e957ca4ff553f1edc692101154e', 'HOME': '/root'})
+environ({'PATH': '/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'HOSTNAME': '046d8b379b17', 'S3_ENDPOINT': 'minio:9000', 'ACCESS_KEY': 'minioadmin', 'SECRET_KEY': 'minioadmin', 'LANG': 'C.UTF-8', 'GPG_KEY': '7169605F62C751356D054A26A821E680E5FA6305', 'PYTHON_VERSION': '3.12.8', 'PYTHON_SHA256': 'c909157bb25ec114e5869124cc2a9c4a4d4c1e957ca4ff553f1edc692101154e', 'HOME': '/root'})
+environ({'PATH': '/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'HOSTNAME': '046d8b379b17', 'S3_ENDPOINT': 'minio:9000', 'ACCESS_KEY': 'minioadmin', 'SECRET_KEY': 'minioadmin', 'LANG': 'C.UTF-8', 'GPG_KEY': '7169605F62C751356D054A26A821E680E5FA6305', 'PYTHON_VERSION': '3.12.8', 'PYTHON_SHA256': 'c909157bb25ec114e5869124cc2a9c4a4d4c1e957ca4ff553f1edc692101154e', 'HOME': '/root'})
+environ({'PATH': '/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'HOSTNAME': '046d8b379b17', 'S3_ENDPOINT': 'minio:9000', 'ACCESS_KEY': 'minioadmin', 'SECRET_KEY': 'minioadmin', 'LANG': 'C.UTF-8', 'GPG_KEY': '7169605F62C751356D054A26A821E680E5FA6305', 'PYTHON_VERSION': '3.12.8', 'PYTHON_SHA256': 'c909157bb25ec114e5869124cc2a9c4a4d4c1e957ca4ff553f1edc692101154e', 'HOME': '/root'})
+S3_ENDPOINT: minio:9000
+ACCESS_KEY: minioadmin
+SECRET_KEY: minioadmin
+environ({'PATH': '/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'HOSTNAME': '046d8b379b17', 'S3_ENDPOINT': 'minio:9000', 'ACCESS_KEY': 'minioadmin', 'SECRET_KEY': 'minioadmin', 'LANG': 'C.UTF-8', 'GPG_KEY': '7169605F62C751356D054A26A821E680E5FA6305', 'PYTHON_VERSION': '3.12.8', 'PYTHON_SHA256': 'c909157bb25ec114e5869124cc2a9c4a4d4c1e957ca4ff553f1edc692101154e', 'HOME': '/root'})
+Requested file: Method Not Allowed The method is not allowed for the requested URL.
+S3_ENDPOINT: minio:9000
+ACCESS_KEY: minioadmin
+SECRET_KEY: minioadmin
+Error downloading file: S3 operation failed; code: NoSuchKey, message: Object does not exist, resource: /my-bucket/Method%20Not%20Allowed%20The%20method%20is%20not%20allowed%20for%20the%20requested%20URL., request_id: 18104B25B0FF42E5, host_id: dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8, bucket_name: my-bucket, object_name: Method Not Allowed The method is not allowed for the requested URL.
+S3_ENDPOINT: minio:9000
+ACCESS_KEY: minioadmin
+SECRET_KEY: minioadmin
+Requested file: Final Presentation.pptx
+S3_ENDPOINT: minio:9000
+ACCESS_KEY: minioadmin
+SECRET_KEY: minioadmin
+environ({'PATH': '/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'HOSTNAME': '046d8b379b17', 'S3_ENDPOINT': 'minio:9000', 'ACCESS_KEY': 'minioadmin', 'SECRET_KEY': 'minioadmin', 'LANG': 'C.UTF-8', 'GPG_KEY': '7169605F62C751356D054A26A821E680E5FA6305', 'PYTHON_VERSION': '3.12.8', 'PYTHON_SHA256': 'c909157bb25ec114e5869124cc2a9c4a4d4c1e957ca4ff553f1edc692101154e', 'HOME': '/root'})
+Requested file: Final Presentation.pptx
+S3_ENDPOINT: minio:9000
+ACCESS_KEY: minioadmin
+SECRET_KEY: minioadmin

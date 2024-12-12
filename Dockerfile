@@ -23,6 +23,6 @@ EXPOSE 5000
 
 # Stage 4: Upload Service
 FROM base AS upload
-CMD ["python", "upload.py"]
+CMD ["python", "cs480-f24-final-project/api/upload.py"]
 EXPOSE 5000
 

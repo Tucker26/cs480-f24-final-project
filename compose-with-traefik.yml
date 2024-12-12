@@ -16,6 +16,19 @@ services:
       - TRAEFIK_HTTP_ROUTERS_API_SERVICE=api@internal
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock"
+    networks:
+      - minio_net
+
+  minio: 
+    image: minio/minio 
+    environment: 
+      MINIO_ROOT_USER: minioadmin 
+      MINIO_ROOT_PASSWORD: minioadmin 
+    command: server /data 
+    ports: 
+      - "9000:9000" 
+    networks: 
+      - minio_net
 
   download:
     build:
@@ -24,26 +37,46 @@ services:
       target: download
     volumes:
       - ./api:/cs480-f24-final-project/api
+    environment:
+      - S3_ENDPOINT=minio:9000
+      - ACCESS_KEY=minioadmin 
+      - SECRET_KEY=minioadmin 
     labels:
       - traefik.http.routers.download.rule=Host(`localtest.me`) && PathPrefix(`/download`)
+    networks:
+      - minio_net
 
   list:
     build:
       context: .
       dockerfile: Dockerfile
       target: list
+    environment:
+      - S3_ENDPOINT=minio:9000
+      - ACCESS_KEY=minioadmin 
+      - SECRET_KEY=minioadmin 
     volumes:
       - ./api:/cs480-f24-final-project/api
     labels:
       - traefik.http.routers.list.rule=Host(`localtest.me`) && PathPrefix(`/list`)
+    networks:
+      - minio_net
 
   upload:
     build:
       context: .
       dockerfile: Dockerfile
       target: upload
+    environment:
+      - S3_ENDPOINT=minio:9000
+      - ACCESS_KEY=minioadmin 
+      - SECRET_KEY=minioadmin 
     volumes:
       - ./api:/cs480-f24-final-project/api
     labels:
       - traefik.http.routers.upload.rule=Host(`localtest.me`) && PathPrefix(`/upload`)
+    networks:
+      - minio_net
 
+networks: 
+  minio_net:
